@@ -56,6 +56,7 @@ input[type=radio]{
 .usertype{
     margin-top: 20px;
     color: black;
+    font-weight:700px;
 }
 .loginbtn{
     margin-top: 20px;
@@ -140,6 +141,7 @@ a{
     .usertype{
         margin-top: 20px;
         color: black;
+        font-weight:700px;
     }
     .loginbtn{
         margin-top: 20px;
