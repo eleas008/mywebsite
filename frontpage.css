@@ -81,3 +81,89 @@ a{
     text-decoration: none;
     color: darkblue;
 }
+@media(max-width:650px) and (min-width:400px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .frontpage{
+        display:flex;
+        height:640px;
+    }
+    .titlesection{
+        display:list-item;
+        width:40%;
+        text-align: center;
+        background-color: darkblue;
+    }
+    .title{
+        font-size: 2rem;
+        font-weight:700;
+        color:azure;
+        margin-top: 250px;
+    }
+    .titlemsg{
+        font-size: 0.7rem;
+        font-weight:700;
+        color:azure;
+        margin-top: 10px; 
+    }
+    .loginsection{
+        background-image: url("./images/online-service-concept-serviceman-repairman-technician-concept-flat-illustration_720185-2803.jpg");
+        object-fit: cover;
+        background-repeat: no-repeat;
+        height:775px;
+        width:60%;
+    }
+    .loginsection{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logintext{
+        font-size: 1.5rem;
+        color:darkblue;
+        font-weight: 400;
+        text-align: center;
+    }
+    input[type=radio]{
+        transform: scale(1);
+        margin-left: 1.5rem;
+    }
+    .input-field{
+        margin-top: 20px;
+        height:30px;
+        border-radius:10px;
+    }
+    .usertype{
+        margin-top: 20px;
+        color: darkblue;
+    }
+    .loginbtn{
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .btn1{
+        background-color: darkblue;
+        color:azure;
+        border-radius: 10px;
+        border:2px solid black;
+        height:35px;
+        width:60px
+    }
+    .contactsignup{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: darkblue;
+        width:250px;
+        margin-top:25px;
+    }
+    a{
+        text-decoration: none;
+        color: darkblue;
+        font-size: smaller;
+    }
+}
