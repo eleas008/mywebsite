@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SignUpasTechnicians.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="signupcustomerform">
+         <div class="signupcustomertext">
+            Sign up as Customer
+            <div class="contact">
+                <h3>Contact us<i class="fa-solid fa-envelope"></i></h3>
+                <ul><a href="mailto:eleassarkerre@gmail.com">Md.Eleas Sarker</a></ul>
+                <ul><a href="mailto:tulyrahmy@gmail.com">Rahmy Akter Tuly</a></ul>
+            </div>
+         </div>
+         <div class="custoersignupform">
+            <div class="signuppbox">
+                <div class="infobox" id="fullname">
+                    <input type="text" class="info-field" placeholder="Full Name" required>
+                </div>
+                <div class="infobox" id="username">
+                    <input type="text" class="info-field" placeholder="UserName" required>
+                </div>
+                <div class="infobox" id="password">
+                    <input type="password" class="info-field" placeholder="Password" required>
+                </div>
+                <div class="infobox" id="phonenumber">
+                    <input type="text" class="info-field" placeholder="Phone Number" required>
+                </div>
+                <div class="infobox" id="pin">
+                    <input type="text" class="info-field" placeholder="Give a 6 digit pin" required>
+                </div>
+                <div class="selctareasubarea">
+                    Area:
+                    <select id="mainArea">
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Narsingdi">Narsingdi</option>
+                        <option value="Gazipur">Gazipur</option>
+                    </select>
+                    Sub-Area:
+                    <select id="subArea">
+                    </select>
+                </div>
+                <div class="buttons" id="customer">
+                    <button type="button" id="back" onclick="goToPage()">Back</button>
+                    <button type="button" id="signup">Sign up</button>
+                </div>
+                <div class="coutionmsg">
+                   
+                    <h4>Coution  <i class="fa-solid fa-triangle-exclamation"></i>:</h4>
+                    Please don't share your PIN and Password with other
+                </div>
+            </div>
+         </div>
+    </div>
+    <script src="SignUpasTechnicians.js"></script>
+</body>
+</html>
