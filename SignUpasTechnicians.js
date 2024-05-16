@@ -58,5 +58,5 @@ mainAreaDropdown.addEventListener('change', populateSubAreas);
 populateSubAreas();
 
 function goToPage() {
-    window.location.href = "frontpage.html";
+    window.location.href = "index.html";
 }
