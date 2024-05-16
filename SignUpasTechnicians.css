@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signupcustomerform{
+    display:flex;
+    height:640px;
+}
+.signupcustomertext{
+    display:list-item;
+    width:40%;
+    text-align: center;
+    background-color: darkblue;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color:azure;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 300px;
+}
+.custoersignupform{
+    background-image: url("./images/online-service-concept-serviceman-repairman-technician-concept-flat-illustration_720185-2803.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height:775px;
+    width:60%;
+}
+.custoersignupform{
+    display:flex;
+    justify-content: center;
+}
+.info-field{
+    margin-top: 40px;
+    height:30px;
+    border-radius:10px;
+    width:300px;
+}
+.selctareasubarea{
+    margin-top: 40px;
+    font-weight: 900;
+}
+.experties{
+    margin-top: 40px;
+    font-weight: 900;
+}
+button{
+    background-color: rgb(6, 6, 52);
+    color:azure;
+    font-weight: 500;
+    width:50px;
+    height:30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.coutionmsg{
+    margin-top: 15px;
+    font-weight: 700;
+    color:darkblue;
+}
+.contact{
+    margin-top: 70px;
+    color: azure;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.contact a{
+    color: azure;
+    text-decoration: none;
+}
+@media(max-width:650px) and (min-width:200px){
+    .signupcustomerform{
+        display:flex;
+        height:640px;
+    }
+    .signupcustomertext{
+        display:list-item;
+        width:40%;
+        text-align: center;
+        background-color: darkblue;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        color:azure;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 700;
+        padding-top: 300px;
+    }
+    .custoersignupform{
+        background-image: url("./images/online-service-concept-serviceman-repairman-technician-concept-flat-illustration_720185-2803.jpg");
+        object-fit: cover;
+        background-repeat: no-repeat;
+        height:775px;
+        width:60%;
+    }
+    .custoersignupform{
+        display:flex;
+        justify-content: center;
+    }
+    .info-field{
+        margin-top: 20px;
+        height:30px;
+        border-radius:10px;
+        width:50px;
+    }
+    .selctareasubarea{
+        margin-top: 20px;
+        font-weight: 900;
+    }
+    .experties{
+        margin-top: 20px;
+        font-weight: 900;
+    }
+    button{
+        background-color: rgb(6, 6, 52);
+        color:azure;
+        font-weight: 500;
+        width:50px;
+        height:30px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .coutionmsg{
+        margin-top: 10px;
+        font-weight: 700;
+        color:darkblue;
+    }
+    .contact{
+        margin-top: 70px;
+        color: azure;
+        font-weight: 700;
+        font-size: 0.7rem;
+    }
+    .contact a{
+        color: azure;
+        text-decoration: none;
+    }
+}
